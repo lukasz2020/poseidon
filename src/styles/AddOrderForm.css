@@ -1,0 +1,170 @@
+.Add-order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Add-order-form-product-info {
+    display: flex;
+}
+
+.Add-order-form-product-image {
+    height: 180px;
+    width: 180px;
+    object-fit: scale-down;
+}
+
+.Add-order-form-product-price-container {
+    font-size: 16px;
+}
+
+.Add-order-form-product-price-info {
+    font-weight: 500;
+    margin: 0;
+}
+
+.Add-order-form-total-units {
+    display: flex;
+    height: 50px;
+}
+
+.Add-order-form-product-form-field-error {
+    font-size: 13px;
+    color: #FF0000;
+    visibility: hidden;
+}
+
+.Add-order-form-product-form-field-error-visible {
+    visibility: visible;
+}
+
+.Add-order-form-label {
+    align-self: flex-end;
+    margin-right: 5px;
+    width: 150px;
+    text-align: right;
+}
+
+.Add-order-form-input {
+    border: 1px solid gainsboro;
+    outline: 0;
+    padding: 3px;
+    width: 194px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Add-order-form-input:focus, .Add-order-form-input:active {
+    border: 1px solid #99afd1;
+}
+
+#units, #country {
+    height: 21px;
+    background-color: gainsboro;
+    border: none;
+}
+
+#units:focus, #country:focus {
+    outline: 0;
+    cursor: pointer;
+}
+
+#units {
+    width: 60px;
+}
+
+#country {
+    width: 200px;
+}
+
+.Add-order-form-product-form-field {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: left;
+}
+
+.Add-order-form-product-form-checkbox {
+    align-self: center;
+}
+
+.Add-order-form-product-total-price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.Add-order-form-product-price, .Add-order-form-product-discount, .Add-order-form-product-shipping{
+    margin: 3px 0;
+}
+
+.Add-order-form-product-percent, .Add-order-form-product-total, .Add-order-form-product-free-shipping {
+    color: #FF5F49;
+}
+
+.Add-order-form-product-free-shipping {
+    font-weight: 500;
+}
+
+.Add-order-form-product-form {
+    display: flex;
+    flex-direction: column;
+    grid-area: form;
+}
+
+.Add-order-form-product-row {
+    display: flex;
+    height: 45px;
+}
+
+.Add-order-form-product-row:last-of-type {
+    margin-top: 20px;
+}
+
+.Add-order-form-total-units .Add-order-form-label {
+    width: auto;
+}
+
+.Add-order-form-product-row-premium-shipping {
+    margin-top: 10px;
+}
+
+.Add-order-form-submit {
+    width: 200px;
+    background-color: gainsboro;
+    border: none;
+    margin-left: auto;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+.Add-order-form-submit:focus {
+    border: 1px solid #99afd1;
+}
+
+.Add-order-form-submit:hover {
+    transition: background-color 2s ease;
+    background-color: #99afd1;
+}
+
+@media (min-width: 768px) {
+    .Add-order-form {
+        flex-direction: row;
+    }
+    .Add-order-form-product-image {
+        height: 350px;
+        width: 350px;
+    }
+    .Add-order-form-product-price-container {
+        align-self: center;
+    }
+}
+
+@media only screen  and (min-width : 1224px) {
+    .Add-order-form-product-image {
+        height: 500px;
+        width: 500px;
+    }
+}

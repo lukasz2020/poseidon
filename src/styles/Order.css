@@ -1,0 +1,35 @@
+.Order {
+    display: flex;
+    justify-content: center;
+}
+
+.Orders-header {
+    border-bottom: 1px solid #000000;
+}
+
+.Orders-header > th {
+    font-weight: 500;
+}
+
+.Order-item {
+    display: flex;
+}
+
+.Order-data {
+    margin-right: 15px;
+}
+.Order-id {
+    width: 320px;
+}
+
+.Order-date {
+    width: 170px;
+}
+
+.Order-country-code, .Order-units {
+    width: 25px;
+}
+
+.Order-first-name, .Order-last-name {
+    width: 160px;
+}

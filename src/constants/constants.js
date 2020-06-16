@@ -1,0 +1,5 @@
+export const PRODUCT_PRICE = 27.49
+export const DISCOUNT_PERCENT_PER_UNIT = 5
+export const PRODUCT_PRICE_DECIMAL_PART = 99
+export const MAXIMUM_NUMBER_OF_PRODUCTS = 12
+export const SHIPPING_PRICE = 15
