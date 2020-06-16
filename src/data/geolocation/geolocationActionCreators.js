@@ -7,7 +7,7 @@ export function loadGeolocationData () {
       type: LOAD_GEOLOCATION_DATA_REQUEST
     })
 
-    fetch('http://ip-api.com/json/')
+    fetch('https://freegeoip.app/json/')
       .then(response => response.json())
       .then(data => {
         dispatch({
