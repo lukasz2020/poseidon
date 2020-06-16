@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/poseidon/static/css/main.85ef57af.chunk.css",
+    "main.css": "/poseidon/static/css/main.fe70bcbc.chunk.css",
     "main.js": "/poseidon/static/js/main.82df37e8.chunk.js",
     "main.js.map": "/poseidon/static/js/main.82df37e8.chunk.js.map",
     "runtime-main.js": "/poseidon/static/js/runtime-main.d8be8ac4.js",
@@ -8,15 +8,15 @@
     "static/js/2.3916b257.chunk.js": "/poseidon/static/js/2.3916b257.chunk.js",
     "static/js/2.3916b257.chunk.js.map": "/poseidon/static/js/2.3916b257.chunk.js.map",
     "index.html": "/poseidon/index.html",
-    "precache-manifest.bec859d9befe714dfe90c2b9a2a9e73f.js": "/poseidon/precache-manifest.bec859d9befe714dfe90c2b9a2a9e73f.js",
+    "precache-manifest.93f810c136b6771b1bbf244759c974f4.js": "/poseidon/precache-manifest.93f810c136b6771b1bbf244759c974f4.js",
     "service-worker.js": "/poseidon/service-worker.js",
-    "static/css/main.85ef57af.chunk.css.map": "/poseidon/static/css/main.85ef57af.chunk.css.map",
+    "static/css/main.fe70bcbc.chunk.css.map": "/poseidon/static/css/main.fe70bcbc.chunk.css.map",
     "static/js/2.3916b257.chunk.js.LICENSE.txt": "/poseidon/static/js/2.3916b257.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d8be8ac4.js",
     "static/js/2.3916b257.chunk.js",
-    "static/css/main.85ef57af.chunk.css",
+    "static/css/main.fe70bcbc.chunk.css",
     "static/js/main.82df37e8.chunk.js"
   ]
 }
