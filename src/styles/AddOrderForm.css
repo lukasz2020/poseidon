@@ -18,6 +18,7 @@
 .Add-order-form-product-price-container {
     font-size: 16px;
     height: 200px;
+    min-width: 175px;
 }
 
 .Add-order-form-product-price-info {
@@ -92,10 +93,10 @@
 .Add-order-form-product-total-price {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .Add-order-form-product-price, .Add-order-form-product-discount, .Add-order-form-product-shipping{
-    margin: 3px 0;
+    margin: 0;
 }
 
 .Add-order-form-product-percent, .Add-order-form-product-total, .Add-order-form-product-free-shipping {
@@ -122,7 +123,9 @@
 }
 
 .Add-order-form-total-units .Add-order-form-label {
-    width: auto;
+    flex-shrink: 0;
+    width: 100px;
+    text-align: left;
 }
 
 .Add-order-form-product-row-premium-shipping {
@@ -150,7 +153,18 @@
     background-color: #99afd1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
+    .Add-order-form-product-image {
+        height: 250px;
+        width: 250px;
+    }
+
+    .Add-order-form-product-total-price {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
     .Add-order-form {
         flex-direction: row;
     }
@@ -163,7 +177,7 @@
     }
 }
 
-@media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 1200px) {
     .Add-order-form-product-image {
         height: 500px;
         width: 500px;
